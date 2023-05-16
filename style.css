@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
 .text-center{
     text-align: center;
 }
 
 .container{
-    text-align: center;
-    background-color: aquamarine;
+    text-align: center;   
 }
 
 .btn{
@@ -22,4 +27,9 @@
     padding: 12px 28px;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.btn:hover,
+button:active{
+    background-color: rgba(255,255,255, 0.5);
 }
