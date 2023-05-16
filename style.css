@@ -22,6 +22,7 @@ html{
 }
 
 .row input{
+    text-align: right;
     margin: 0;
     width: 195px;
     padding: 12px 28px;

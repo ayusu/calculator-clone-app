@@ -15,7 +15,6 @@ Array.from(btns).forEach((btn)=>{
             let afterDelete = string.slice(0, -1)          
             document.querySelector('input').value = afterDelete;
             string = afterDelete
-
         }
         else{
             console.log(e.target)
